@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
