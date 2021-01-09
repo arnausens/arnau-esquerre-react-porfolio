@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from "axios";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class Login extends Component {
     constructor(props) {
@@ -58,25 +59,33 @@ export default class Login extends Component {
 
                 <div>{this.state.errorText}</div>
 
-                <form onSubmit={this.handleSubmit}>
-                    <input 
-                    type="text" 
-                    name="email"
-                    placeholder="Your email"
-                    value={this.state.email}
-                    onChange={this.handleChange}
-                    />
-                    <input 
-                    type="password"
-                    name="password"
-                    placeholder="Your password"
-                    value={this.state.passsword}
-                    onChange={this.handleChange} 
+                <form onSubmit={this.handleSubmit} className="auth-form-wrapper">
+                    <div className="form-group">
+                        <FontAwesomeIcon icon="envelope" />
+                        <input 
+                        type="text" 
+                        name="email"
+                        placeholder="Your email"
+                        value={this.state.email}
+                        onChange={this.handleChange}
                     />
 
-                    <div>
-                        <button type="submit">Login</button>
                     </div>
+
+                    <div className="form-group">
+                        <FontAwesomeIcon icon="lock" />
+                        <input 
+                        type="password"
+                        name="password"
+                        placeholder="Your password"
+                        value={this.state.passsword}
+                        onChange={this.handleChange} 
+                        />
+                    </div>
+
+                    
+                    <button type="submit" className="btn">Login</button>
+                    
                 </form>
 
             </div>
