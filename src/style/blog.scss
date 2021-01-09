@@ -4,6 +4,25 @@
   align-items: center;
   position: relative;
 
+  .admin-blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.9s ease-in-out;
+    padding: 10px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $offwhite;
+    }
+
+    a {
+      margin-left: 15px;
+      cursor: pointer;
+    }
+    
+  }
+
   .new-blog-link {
     position: fixed;
     right: 0;
