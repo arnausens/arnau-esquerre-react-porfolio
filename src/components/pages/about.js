@@ -12,6 +12,7 @@ export default function() {
             }}
             />
             <div className="right-column">
+                Hola Soy Arnau Haciendo Una Prueba.
                 Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis
                 dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis.
                 Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
