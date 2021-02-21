@@ -20,7 +20,7 @@ export default function() {
                         </div>
 
                         <div className="text">
-                        601109934
+                        *********
                         </div>
                     </div>
                     <div className="bullet-point-group">
