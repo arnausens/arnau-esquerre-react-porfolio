@@ -12,24 +12,17 @@ export default function() {
             }}
             />
             <div className="right-column">
-                Hola Soy Arnau Haciendo Una Prueba.
-                Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis
-                dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis.
-                Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-                Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget
-                risus varius blandit sit amet non magna. Morbi leo risus, porta ac
-                consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida
-                at eget metus. Donec sed odio dui. Cras mattis consectetur purus sit
-                amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nulla
-                vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque
-                ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non
-                commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-                elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur
-                et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-                commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis
-                risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac
-                consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis
-                euismod semper.
+                Hola Soy Arnau! Nacido en Barcelona, en 1988.
+                Soy una persona muy apasionada, de caracter alegre y divertido, me encanta trabajar en equipo, aprender de los demas y 
+                ayudar en todo lo que pueda. Soy perseverante, y tengo una buena capacidad de resolución de problemas, perfeccionista y ordenado.
+                Del fogón al ratón, he trabajado hasta finales de 2020 en el mundo de la hosteleria, he aprendido muchod e ella
+                tanto personalmente como profesionalmente. A raíz de la pandemia decidí que queria cambiar de rumbo mi vida y enfocarme en 
+                otra profesión, la informatica siempre ha estado en mi vida, aficionado a ella busqué que podría hacer relacionado.
+                Me surgió la oportunidad de hacer un cuurso introductorio de desarrollador que abarcaba HTML5, CSS3 y Javascript, finalmente 
+                me di cuenta que esto era lo que quería hacer asique me aventure en el curso de Full Stack Developer que abarca HTML5, CSS3,
+                Javascript, Python, Git, Github, React, Redux, Mysql, entre otros.
+                Tengo muchas ganas de empezar a trabajar en este mundo tan amplio y con tanto que aprender. 
+                Let's Code!
             </div>
         </div>
     );
